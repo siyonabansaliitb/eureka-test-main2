@@ -1,0 +1,83 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.body{
+    background: radial-gradient(44.43% 140.41% at 22.58% 39.07%, #1E2E63 20.13%, #131F2D 100%)
+}
+
+
+/* NAVBAR */
+.navbar{
+    padding: 5px 15px;
+}
+.navbar-header{
+    width: 60px;
+}
+.navbar-header img{
+    width: 50px;
+}
+.switches li a{
+    color: white;
+}
+
+
+/* MAIN */
+.main{
+    min-height: 680px;
+    display: block;
+    color: white;
+    /* padding: 20px 20px; */
+}
+.main img{
+    width: 500px;
+}
+
+.btn-success{
+    width: 200px;
+}
+.butbut{
+    align-items: center;
+    margin-left: 300px;
+}
+
+/* SAFED CONTAINER */
+
+.boxy{
+    min-height: 1300px;
+    background-color: white;
+    border-radius: 5rem;
+}
+.what-eureka{
+    padding-top: 50px;
+    width: 60%;
+    margin-left: 100px;}
+.what-eureka h3{
+    font-weight: 800;
+}
+.what-eureka p{
+    font-weight: 700;
+    font-size: x-large;
+}
+.vision{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin-left: 100px;}
+.vision h3{
+    font-weight: 800;
+}
+.vision p{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+

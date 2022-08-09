@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    padding: 0;
+  }
+  .body{
+      /* background: transparent; */
+    background: radial-gradient(44.43% 140.41% at 22.58% 39.07%, #1E2E63 20.13%, #131F2D 100%)
+
+  }
+  
+  
+  /* NAVBAR */
+  .navbar{
+      padding: 5px 15px;
+      background: transparent;
+  }
+  .navbar-header{
+      width: 60px;
+  }
+  .navbar-header img{
+      width: 50px;
+  }
+  .switches li a{
+      color: white;
+      background: transparent;
+  }
+  .switches li a:hover{
+      color: white;
+      background: transparent;
+  }
+  
+  .switches li a:active{
+    color: black;
+    background: transparent;
+}
+/* .switches li a:focus{
+    color: black;
+} */
+
+.active{
+    color: blue;
+    background: white;}
+.navbar-right li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-right li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-right li:hover .underline {
+	background-color: white;
+	width: 100%;
+}
+
+/* .navbar-right li:hover a {
+} */
+
+.navbar-right li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-right li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+
+
+
+#topheader .navbar-nav li > a {
+    -webkit-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+}
+#topheader .navbar-nav li > a:hover,
+#topheader .navbar-nav li > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+#topheader .navbar-nav li.active > a {
+    background-color: transparent;
+    color: white;
+}
+
+#topheader .navbar-nav li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.ham{
+    color: #fff;
+    align-self: center;
+    display: none;
+}
+
+.navbar-header{
+    display: flex;
+    /* width: 100%;
+    justify-content: space-between; */
+}
+    /* .extra-2{
+        display: none;
+    } */
+
+
+
+@media only screen and (max-width: 1000px) {
+    .ham{
+        color: #fff;
+        align-self: center;
+        display: flex;
+        cursor: pointer;
+    }
+    .extra{
+        display: none;
+    }
+    /* .extra-2{
+        display: block;
+    } */
+    .navbar-header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbar-header img{
+        margin-right: 90%;
+    }
+    
+}

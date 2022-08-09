@@ -1,0 +1,47 @@
+<div class="body" id="topheader">
+    <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="https://www.ecell.in/2020/images/Website%20Logo.png" alt="E-Cell">
+            <div class="ham"  (click) = toggleDisplay()>
+                <i class="fa-solid fa-bars fa-2xl"></i>
+              </div>
+          </div>
+          <!-- <ul class="nav navbar-nav">
+            
+          </ul> -->
+          <!-- <button>Toggle</button> -->
+          <ul class="nav navbar-nav navbar-right switches extra">
+            <li [routerLink]="['/landing']"><a href="#">Home<div class="underline"></div></a></li>
+            <li [routerLink]="['/compi']"><a >Competition<div class="underline"></div></a></li>
+            <li [routerLink]="['/tracks']"><a>Tracks<div class="underline"></div></a></li>
+            <li><a href="#">Incentives<div class="underline"></div></a></li>
+            <li><a href="#">Sponsors<div class="underline"></div></a></li>
+            <li><a href="#">Hall of Fame<div class="underline"></div></a></li>
+            <li><a href="#">Contact<div class="underline"></div></a></li>
+            <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right switches extra-2" [hidden] = "isShow">
+            <li class=""><a href="#">Home<div class="underline"></div></a></li>
+            <li><a href="#">Competition<div class="underline"></div></a></li>
+            <li><a href="#">Tracks<div class="underline"></div></a></li>
+            <li><a href="#">Incentives<div class="underline"></div></a></li>
+            <li><a href="#">Sponsors<div class="underline"></div></a></li>
+            <li><a href="#">Hall of Fame<div class="underline"></div></a></li>
+            <li><a href="#">Contact<div class="underline"></div></a></li>
+            <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <script>
+        $( 'container-fluid .active' ).on('click', 
+                    function () {
+            $( 'container-fluid .navbar-nav' ).find( 'li.active' )
+            .removeClass( 'active' );
+            $( this ).parent( 'li' ).addClass( 'active' );
+        });
+    </script>

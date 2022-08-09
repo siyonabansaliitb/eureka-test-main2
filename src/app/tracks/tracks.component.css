@@ -1,0 +1,198 @@
+html, body{
+    margin: 0;
+    padding: 0;
+  }
+  .body{
+      background: radial-gradient(44.43% 140.41% at 22.58% 39.07%, #1E2E63 20.13%, #131F2D 100%)
+  }
+
+  .heading-rounds-white  {
+    text-align: center;
+  }
+  .heading-rounds-white h2{
+    color: white;
+    padding: 20px 0px;
+  }
+
+  
+.criteria{
+    background: white;
+    min-height: 200px;
+    border-radius: 2rem;
+    margin: 10px 2px;
+}
+
+.card {
+    /* width: 250px; */
+    /*display: block;*/
+    background-color: white;
+    /*background:white;*/
+    width: 300px;
+    /*position:absolute !important;*/
+    min-height: 300px;
+    margin: 20px 20px;
+    border:0px;
+   /* padding: 20px 10px; */
+    /* display: flex; */
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    border-radius: 1rem;
+    transition: transform 0.2s ease;
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8); */
+
+    /* background: radial-gradient(174.22% 357.08% at 0% 0%, #1E2E63 23.19%, #131F2D 100%); */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+    /* border-radius: 62px; */
+    /* box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.47); */
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 2rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+  .card-in{
+    min-height: 50px;
+    background: white;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .ace{
+    background: radial-gradient(174.22% 357.08% at 0% 0%, #1E2E63 23.19%, #131F2D 100%);
+}
+  
+.ace h4{
+    color: #14202E;
+    font-weight: 800;
+}
+.ace p{
+    color: #14202E;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.title{
+  font-family: "SF Pro Display"; 
+  font-weight: 900;
+  font-style: italic;
+  font-size: 80px;
+  line-height: 200px;
+  border-radius: nullpx;
+  color: #FFFFFF;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;  
+  }
+.body{
+  background: radial-gradient(44.43% 140.41% at 22.58% 39.07%, #1E2E63 20.13%, #131F2D 100%)
+}
+
+.cards{
+  background: #FFFFFF;
+  border-radius: 52px;
+}
+
+.crd{
+  width: 400px;
+height: 420px;
+background: radial-gradient(174.22% 357.08% at 0% 0%, #1E2E63 23.19%, #131F2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+/*box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);*/
+border-radius: 61px;
+margin:40px;
+}
+
+.toptitle{
+ /* width: 400px;*/
+  height: 100px;
+  text-align: -webkit-center;
+  background: #FFFFFF;
+  box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.47);
+  border-radius: 61px 61px 0px 0px;
+}
+
+.toptitle img{
+  width: 150px;
+  height: 100px;
+}
+
+.cardtitle{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.cardtext{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cardbtn{
+width: 230px;
+height:auto;
+background: #69A261;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #F3F4FC;
+}
+
+.cardbtn:hover{
+  width:235px;
+}
+
+.btntext{
+  text-align: center;
+  color:  #F3F4FC;
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  display: flex;
+  margin: auto;
+}
+
+.cashtext{
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: 6px;
+background: linear-gradient(90deg, #DF867A 34.57%, #F5DEAB 68.23%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+
